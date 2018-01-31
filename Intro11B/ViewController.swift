@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     }
 
     // MARK: Action
-    @IBAction func appTapped(sender: UITapGestureRecognizer) {
+    @IBAction func appTapped(_ sender: UITapGestureRecognizer) {
         
         myTextField.resignFirstResponder() 
     }
